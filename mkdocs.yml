@@ -2,6 +2,8 @@ site_name: My Docs
 
 theme:
   name: material
+  logo: assets/logo.png
+  favicon: assets/icon.png
   custom_dir: overrides
   features:
     - navigation.tabs
