@@ -9,4 +9,17 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
-language: en
+  palette:
+    primary: black
+
+markdown_extensions:
+  - meta
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.snippets
+
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
