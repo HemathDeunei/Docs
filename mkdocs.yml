@@ -12,6 +12,9 @@ theme:
     - navigation.expand
     - navigation.path
     - navigation.top
+    - search.highlight
+    - search.share
+    - search.suggest
   palette:
 
     - scheme: slate
@@ -35,6 +38,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true
   - pymdownx.snippets
+
+plugins:
+  - search:
+      lang: en
 
 plugins:
   - mkdocs-jupyter:
